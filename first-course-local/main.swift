@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Женя Сычёв, спасибо тебе за подачу материала и самоотдачу! Ценно!")
 
