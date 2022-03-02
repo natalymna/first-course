@@ -102,7 +102,7 @@ var queueSend = Queue(items: postSendQueue)
 var getService = queueSend.dequeue()
 print(queueSend.items)
 
-print("Следующий в очереди на обслуживание номерок под номером \(String(describing: queueSend.front!))")
+print("Следующий в очереди на обслуживание номерок под номером \(String(describing: queueSend.front))")
 getService = queueSend.dequeue()
 print("Следующий в очереди на обслуживание номерок под номером \(String(describing: queueSend.front!))")
 
